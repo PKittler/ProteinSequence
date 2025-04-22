@@ -220,7 +220,7 @@ def main():
 
     # 3. write sequences
     if write_output(args.target, formatted_output):
-        print(f"Sequence written succesfully in '{args.target}'-")
+        print(f"Sequence written successfully in '{args.target}'-")
     else:
         # exit if error occurs
         sys.exit(1)
